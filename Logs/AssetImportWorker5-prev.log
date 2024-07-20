@@ -1,0 +1,971 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.22f1 (887be4894c44) revision 8944612'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'zh' Physical Memory: 32677 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\unity\2022.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+F:/cuz23
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+2319
+Successfully changed project path to: F:/cuz23
+F:/cuz23
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9888] Host "[IP] 192.168.31.9 [Port] 0 [Flags] 2 [Guid] 237111919 [EditorId] 237111919 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3U7SNET) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9888] Host "[IP] 192.168.31.9 [Port] 0 [Flags] 2 [Guid] 237111919 [EditorId] 237111919 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3U7SNET) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 32.11 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 1.21 ms.
+Initialize engine version: 2022.3.22f1 (887be4894c44)
+[Subsystems] Discovering subsystems at path E:/unity/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/cuz23/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 SUPER (ID=0x1e84)
+    Vendor:   NVIDIA
+    VRAM:     8003 MB
+    Driver:   31.0.15.4633
+Initialize mono
+Mono path[0] = 'E:/unity/2022.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'E:/unity/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/unity/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/unity/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005416 seconds.
+- Loaded All Assemblies, in  0.412 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.336 seconds
+Domain Reload Profiling: 748ms
+	BeginReloadAssembly (126ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (172ms)
+		LoadAssemblies (125ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (170ms)
+			TypeCache.Refresh (169ms)
+				TypeCache.ScanAssembly (154ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (336ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (268ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (187ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.013 seconds
+Refreshing native plugins compatible for Editor in 12.17 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.ArgumentNullException: Value cannot be null.
+Parameter name: path
+  at System.IO.Directory.CreateDirectory (System.String path) [0x00003] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at VRC.SDKBase.Editor.VRCPackageSettings.EnsurePathExists () [0x0000b] in .\Packages\com.vrchat.base\Editor\VRCSDK\Dependencies\VRChat\VRCPackageSettings.cs:45 
+  at VRC.SDKBase.Editor.VRCPackageSettings.Load () [0x00000] in .\Packages\com.vrchat.base\Editor\VRCSDK\Dependencies\VRChat\VRCPackageSettings.cs:50 
+  at VRC.SDKBase.Editor.VRCPackageSettings.Create () [0x00005] in .\Packages\com.vrchat.base\Editor\VRCSDK\Dependencies\VRChat\VRCPackageSettings.cs:19 
+  at VRC.SDKBase.Editor.SampleHintCreator..cctor () [0x00007] in .\Packages\com.vrchat.base\Editor\VRCSDK\SampleHintCreator.cs:18 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00040] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <27124aa0e30a41659b903b822b959bc7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <80a8ce1980c648dca8e68f0d8aa3b930>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.464 seconds
+Domain Reload Profiling: 3475ms
+	BeginReloadAssembly (163ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (742ms)
+		LoadAssemblies (447ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (384ms)
+			TypeCache.Refresh (343ms)
+				TypeCache.ScanAssembly (313ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (2465ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1490ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (788ms)
+			ProcessInitializeOnLoadMethodAttributes (597ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 13.66 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.07 ms.
+Unloading 3523 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 243 unused Assets / (22.1 MB). Loaded Objects now: 3947.
+Memory consumption went from 239.0 MB to 216.9 MB.
+Total: 22.550200 ms (FindLiveObjects: 0.327800 ms CreateObjectMapping: 0.276900 ms MarkObjects: 9.767900 ms  DeleteObjects: 12.176100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8204.739177 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Animations/Tolass_Action.controller
+  artifactKey: Guid(29417b4d020311a4296db581957be77f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Animations/Tolass_Action.controller using Guid(29417b4d020311a4296db581957be77f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e2bece274659b1799a9c31cd76ef2a6a') in 0.159033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 91
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Animations/Tolass_Sitting.controller
+  artifactKey: Guid(8a94ce43c75c07844a821e0665542b35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Animations/Tolass_Sitting.controller using Guid(8a94ce43c75c07844a821e0665542b35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '515fc82e7220a7095be2f0f759d65338') in 0.057097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Animations/Tolass_SubMenu_Exp_Joy.asset
+  artifactKey: Guid(d50b76aa9f682324ea9b49c54e43ece9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Animations/Tolass_SubMenu_Exp_Joy.asset using Guid(d50b76aa9f682324ea9b49c54e43ece9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '228f9ef9df0ae3c1f579e84a80138dca') in 0.015631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/lilToon/Shader/Includes/lil_vert_encryption.hlsl
+  artifactKey: Guid(957b6179a395605459b9e1ef1d0cdc0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/lilToon/Shader/Includes/lil_vert_encryption.hlsl using Guid(957b6179a395605459b9e1ef1d0cdc0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eae8df6c9e5bcd1153f3d885efed05f4') in 0.014886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Animations/Tolass_SubMenu_Emote.asset
+  artifactKey: Guid(f8b7ce46d10dd884d8810b4f29f08e87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Animations/Tolass_SubMenu_Emote.asset using Guid(f8b7ce46d10dd884d8810b4f29f08e87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0cab3918c0043df89b209d5068784aa0') in 0.015936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Materials/Tolass.Hair.mat
+  artifactKey: Guid(f24bf4f6c680af44db1585f0373182d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Materials/Tolass.Hair.mat using Guid(f24bf4f6c680af44db1585f0373182d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bffe7a24b94febb78277dc02d1a54736') in 0.365999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/lilToonReleaser/Editor/Resources/lilToon - BOOTH.url
+  artifactKey: Guid(c4bdc26d81a3bf148af4714c277e0cab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/lilToonReleaser/Editor/Resources/lilToon - BOOTH.url using Guid(c4bdc26d81a3bf148af4714c277e0cab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bedced5efe22a783397ebe8a6bf6bcd5') in 0.008377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/lilToon/CustomShaderResources/URP/DefaultMultiOutline.lilblock
+  artifactKey: Guid(8d3b22fef4361a04a9b31d85a7cac0b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/lilToon/CustomShaderResources/URP/DefaultMultiOutline.lilblock using Guid(8d3b22fef4361a04a9b31d85a7cac0b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0fddf032a132a79eb70b4cbb6d14540d') in 0.009977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/8K Skybox Pack Free/Skyboxes/Material/sky-9.mat
+  artifactKey: Guid(52d44e5692d0c134f9b2ed3abd21fb73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/8K Skybox Pack Free/Skyboxes/Material/sky-9.mat using Guid(52d44e5692d0c134f9b2ed3abd21fb73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2385c8a1ce812f65f8fb1cf9647969a9') in 0.054014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/lilToon/CustomShaderResources/URP/DefaultUsePassFurOnlyTwoPass.lilblock
+  artifactKey: Guid(a9266652633a6c04e9a99dd62fb00edd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/lilToon/CustomShaderResources/URP/DefaultUsePassFurOnlyTwoPass.lilblock using Guid(a9266652633a6c04e9a99dd62fb00edd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ce92d2cca292b7b51f1c313791a0294d') in 0.009200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/lilToon/Editor/Resources/gui_box_inner_half_light.png
+  artifactKey: Guid(8343038a4a0cbef4d8af45c073520436) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/lilToon/Editor/Resources/gui_box_inner_half_light.png using Guid(8343038a4a0cbef4d8af45c073520436) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9639ae27b5af3ce6bb228a9a8159e64f') in 0.073636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/lilToon/Shader/Includes/lil_common_frag_alpha.hlsl
+  artifactKey: Guid(184b658250bd4db4798f485de4e4b00b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/lilToon/Shader/Includes/lil_common_frag_alpha.hlsl using Guid(184b658250bd4db4798f485de4e4b00b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8b0d2a215c341c999d4914f59a877746') in 0.019485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Animations/Tolass_SubMenu_Otf.asset
+  artifactKey: Guid(df8b167aa6952dd48aed2eeb902a705c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Animations/Tolass_SubMenu_Otf.asset using Guid(df8b167aa6952dd48aed2eeb902a705c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3d0b0941eab1f37a045c4495b79cfd2b') in 0.014002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/lilToon/Shader/ltspass_lite_opaque.shader
+  artifactKey: Guid(59b5e58e88aae8a4ca42d1a7253e2fb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/lilToon/Shader/ltspass_lite_opaque.shader using Guid(59b5e58e88aae8a4ca42d1a7253e2fb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '01006cc704968728d4cab5dae1abd78b') in 0.016406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/lilToon/CustomShaderResources/HDRP/DefaultFurTwoPass.lilblock
+  artifactKey: Guid(ec3c15b0b24338c41b099770d56cfbf2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/lilToon/CustomShaderResources/HDRP/DefaultFurTwoPass.lilblock using Guid(ec3c15b0b24338c41b099770d56cfbf2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd7eeb4f245422c1747559b48ee944a24') in 0.011496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Animations/Acc/acc_CheakOn.anim
+  artifactKey: Guid(5b4669f35bc44b24d93706dbb79de787) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Animations/Acc/acc_CheakOn.anim using Guid(5b4669f35bc44b24d93706dbb79de787) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1ac7bfc7714c2fad101f80fb4fd955ec') in 0.025864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_TransClipping_Tess.shader
+  artifactKey: Guid(3fb99ac3775edeb4aa9530db5a614c92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_TransClipping_Tess.shader using Guid(3fb99ac3775edeb4aa9530db5a614c92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7f8a6518a0a8c1560eaee28ae614efd1') in 0.019815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Toon/Shader/Tess/UCTS_Tess.cginc
+  artifactKey: Guid(13aee1e1f6c49d94fa292dca9910126e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Toon/Shader/Tess/UCTS_Tess.cginc using Guid(13aee1e1f6c49d94fa292dca9910126e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eb087ea89b093498212c211d7eb76eb9') in 0.014430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Toon/Shader/Tess/Toon_ShadingGradeMap_AngelRing_TransClipping_Tess_StencilOut.shader
+  artifactKey: Guid(d496a1c70c797ad43836d5bfff575b5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Toon/Shader/Tess/Toon_ShadingGradeMap_AngelRing_TransClipping_Tess_StencilOut.shader using Guid(d496a1c70c797ad43836d5bfff575b5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a61e6eb8122f90b655c7682f815ec540') in 0.013972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Animations/Expressions/exp_Bleah.anim
+  artifactKey: Guid(8698321648caf0444ad41696d7fcd715) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Animations/Expressions/exp_Bleah.anim using Guid(8698321648caf0444ad41696d7fcd715) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b983ff13abed58c1b7cdd3e1e502d1b9') in 0.010914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Toon/Shader/Tess/Toon_ShadingGradeMap_TransClipping_Tess_StencilOut.shader
+  artifactKey: Guid(08c6bb334aed21c4198cf46b71ebca2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Toon/Shader/Tess/Toon_ShadingGradeMap_TransClipping_Tess_StencilOut.shader using Guid(08c6bb334aed21c4198cf46b71ebca2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '89edc5a74f14a2f31b5a4c764ae25502') in 0.014777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Animations/Expressions/exp_Amazed.anim
+  artifactKey: Guid(377ab00d00475794cbd045e4c9253044) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Animations/Expressions/exp_Amazed.anim using Guid(377ab00d00475794cbd045e4c9253044) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '90afb795e5697b31bb1f56a5465cb46f') in 0.011188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_TransClipping_Tess_StencilOut.shader
+  artifactKey: Guid(2a0d4af863770404faee6488b86fe3c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_TransClipping_Tess_StencilOut.shader using Guid(2a0d4af863770404faee6488b86fe3c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'df835776200e43c09a93a3779435d38c') in 0.011932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Tess_Light_StencilMask.shader
+  artifactKey: Guid(3073cd2564e4cde45a19c05e0012d22a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Tess_Light_StencilMask.shader using Guid(3073cd2564e4cde45a19c05e0012d22a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ab77fa24dd0cf179ea4184465a02609f') in 0.015011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Animations/Expressions/exp_Gununu_Sweats.anim
+  artifactKey: Guid(58a2707e30d7c0c4a8f21541e7d1dc9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Animations/Expressions/exp_Gununu_Sweats.anim using Guid(58a2707e30d7c0c4a8f21541e7d1dc9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e3fc788f36c2bf076821b12a1ed92c5a') in 0.012610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Toon/Shader/Tess/Toon_ShadingGradeMap_TransClipping_Tess_StencilMask.shader
+  artifactKey: Guid(8d1395a9f4bfad44d8fddd0f2af19b1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Toon/Shader/Tess/Toon_ShadingGradeMap_TransClipping_Tess_StencilMask.shader using Guid(8d1395a9f4bfad44d8fddd0f2af19b1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8f5902415e56ab01da59a7b76fec92af') in 0.017116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toon/Shader/Tess/UCTS_ShadowCaster_Tess.cginc
+  artifactKey: Guid(6261ac20c5dfa024a98d6ce3921bab70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Toon/Shader/Tess/UCTS_ShadowCaster_Tess.cginc using Guid(6261ac20c5dfa024a98d6ce3921bab70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cfb8e37788607edcd4e7f0de08ce68c9') in 0.014932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Tess_StencilOut.shader
+  artifactKey: Guid(f937ea4ce96dfbe448afc0fb671198e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Tess_StencilOut.shader using Guid(f937ea4ce96dfbe448afc0fb671198e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f506646b876b6a8e7d06a5513eb57175') in 0.019887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Toon/Shader/Tess/UCTS_DoubleShadeWithFeather_tess.cginc
+  artifactKey: Guid(6d04fc34e9717d34d9589f39decf8333) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Toon/Shader/Tess/UCTS_DoubleShadeWithFeather_tess.cginc using Guid(6d04fc34e9717d34d9589f39decf8333) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f9fd1f2f0090501515663b0774de835b') in 0.023397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Toon/Shader/Tess/Toon_ShadingGradeMap_Tess_StencilOut.shader
+  artifactKey: Guid(e667137c8b6fd3d4390fc364b2e5c70b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Toon/Shader/Tess/Toon_ShadingGradeMap_Tess_StencilOut.shader using Guid(e667137c8b6fd3d4390fc364b2e5c70b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '915c624369da5d934ca5fe5c9892b12d') in 0.014683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/lilToon/Shader/lts_gem.shader
+  artifactKey: Guid(a8d94439709469942bc7dcc9156ba110) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/lilToon/Shader/lts_gem.shader using Guid(a8d94439709469942bc7dcc9156ba110) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b0916f95c267e22d01c4627100611e00') in 0.022538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/lilToon/Shader/lts_fur_two.shader
+  artifactKey: Guid(54bc8b41278802d4a81b27fe402994e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/lilToon/Shader/lts_fur_two.shader using Guid(54bc8b41278802d4a81b27fe402994e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4ae8540326e0ec085e5f6d49a9090522') in 0.028690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Toon/Shader/Toon_ShadingGradeMap.shader
+  artifactKey: Guid(ca035891872022e4f80c952b3916e450) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Toon/Shader/Toon_ShadingGradeMap.shader using Guid(ca035891872022e4f80c952b3916e450) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b301c2f0528b66db482372d5f3f743e4') in 0.013422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Toon/Editor/UTS2GUI.cs
+  artifactKey: Guid(e403ef4b1d56fce47b49ec46981d9fcb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Toon/Editor/UTS2GUI.cs using Guid(e403ef4b1d56fce47b49ec46981d9fcb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5da1572a120e665b1c0c0e5349b777f8') in 0.015802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/lilToon/CustomShaderResources/BRP/DefaultTessellationTwoSide.lilblock
+  artifactKey: Guid(da0c0af4b2bc3ea4e9c4c61be252d9a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/lilToon/CustomShaderResources/BRP/DefaultTessellationTwoSide.lilblock using Guid(da0c0af4b2bc3ea4e9c4c61be252d9a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bc560619167cddd93ffab350d234ab25') in 0.009491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/VRCDefaultWorldScene/SKY_UdonLab.mat
+  artifactKey: Guid(2217b04cbc03ec44e96391f2356896d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/VRCDefaultWorldScene/SKY_UdonLab.mat using Guid(2217b04cbc03ec44e96391f2356896d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c44045900ad3f055af7dd56e65a3cc98') in 0.013398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/8K Skybox Pack Free/Skyboxes/Texture/sky-7.png
+  artifactKey: Guid(c7446ec5690a9ae4190faeaae79086b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/8K Skybox Pack Free/Skyboxes/Texture/sky-7.png using Guid(c7446ec5690a9ae4190faeaae79086b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd5bd8bc0326e611337c638d318edcb46') in 0.060348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Animations/Expressions/exp_Interesting.anim
+  artifactKey: Guid(d670ee91bc3a8614e8bd517d681845b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Animations/Expressions/exp_Interesting.anim using Guid(d670ee91bc3a8614e8bd517d681845b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0942ab0bb9ceafb407cc799867cf8033') in 0.013752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Animations/Hand/Hand.Fist.anim
+  artifactKey: Guid(2d59b4dd4837e424997652fb85fdd9bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Animations/Hand/Hand.Fist.anim using Guid(2d59b4dd4837e424997652fb85fdd9bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ec4a504806e548f64f56715ed3b48900') in 0.011325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Animations/Expressions/exp_Triangle_Small.anim
+  artifactKey: Guid(d5bc8ee6bcb76fe4199164269e71694c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Animations/Expressions/exp_Triangle_Small.anim using Guid(d5bc8ee6bcb76fe4199164269e71694c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8b573b28fce9ea1be7f924971059f157') in 0.013263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Animations/Wedge/acc_WingOff.anim
+  artifactKey: Guid(3551a30444b4b3a458220d765d80b4e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Animations/Wedge/acc_WingOff.anim using Guid(3551a30444b4b3a458220d765d80b4e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '84843aaf5ffc020cd6bcffd3b8f595be') in 0.012829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Animations/Wedge/Exp_Eye_Ouch.anim
+  artifactKey: Guid(9969116f8b3397e44a837add964fd8ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Animations/Wedge/Exp_Eye_Ouch.anim using Guid(9969116f8b3397e44a837add964fd8ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0c536641fbc79c11da9914cab3184141') in 0.041797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Animations/Expressions/exp_Ouch.anim
+  artifactKey: Guid(a7a44a8be8588614784aa1242ce02f0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Animations/Expressions/exp_Ouch.anim using Guid(a7a44a8be8588614784aa1242ce02f0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ba8987d4f54ef2ac0d1b62a81b162fd4') in 0.016818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Animations/Outfits/Otf_Default.anim
+  artifactKey: Guid(fcc0b3ec03e308841a69579a7c9c20cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Animations/Outfits/Otf_Default.anim using Guid(fcc0b3ec03e308841a69579a7c9c20cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1f544b20c4513e7128589c45a3193353') in 0.011223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Animations/Wedge/Wedge.Hand.Open.anim
+  artifactKey: Guid(df7b74493f581c04993af99181b571fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Animations/Wedge/Wedge.Hand.Open.anim using Guid(df7b74493f581c04993af99181b571fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7f9e1a584b19e0b932240ce3dab94cec') in 0.012727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Icons/expressions/exp_01.png
+  artifactKey: Guid(e2f86a999990cc542b62cbda19eb9ad4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Icons/expressions/exp_01.png using Guid(e2f86a999990cc542b62cbda19eb9ad4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6f58831cf19909dbe50ca93d90b043b2') in 0.041839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Animations/Wedge/Hand.Default.anim
+  artifactKey: Guid(800119f39b5c0dc4b9af71b717770a65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Animations/Wedge/Hand.Default.anim using Guid(800119f39b5c0dc4b9af71b717770a65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '41700e3340c7c69ea54fa82579d8b6f3') in 0.019671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Animations/Wedge/Empty.anim
+  artifactKey: Guid(7cd52fe34cb8dd842a863f9ca130df60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Animations/Wedge/Empty.anim using Guid(7cd52fe34cb8dd842a863f9ca130df60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '23c8318f6fa9082881c1102dbb2e9938') in 0.027837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Animations/Wedge/Exp_Ahhhh_Zigzag.anim
+  artifactKey: Guid(ce9e743d6828e544490ec1d6b07dc8da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Animations/Wedge/Exp_Ahhhh_Zigzag.anim using Guid(ce9e743d6828e544490ec1d6b07dc8da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cadca4ac3b396787c1c41ada9516f1bb') in 0.015691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Animations/Expressions/exp_Sweet_Star.anim
+  artifactKey: Guid(b4fda86adc1a3134f88bd040ae89fde9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Animations/Expressions/exp_Sweet_Star.anim using Guid(b4fda86adc1a3134f88bd040ae89fde9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5160bae52b60c7a55298c7dcff3898f3') in 0.012749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Animations/Hand/Hand.ThumbsUp.anim
+  artifactKey: Guid(2503e751234066142b5ea993a4aadd23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Animations/Hand/Hand.ThumbsUp.anim using Guid(2503e751234066142b5ea993a4aadd23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '34db22b56ede85084aac522a60eda23c') in 0.021594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Animations/Expressions/exp_Smile_Pachi.anim
+  artifactKey: Guid(45d593cf374294b4a9c2fcb7f5ce9bbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Animations/Expressions/exp_Smile_Pachi.anim using Guid(45d593cf374294b4a9c2fcb7f5ce9bbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1c17d75e00e4386aeac6d025838e8ce8') in 0.018323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Animations/Wedge/acc_WingON.anim
+  artifactKey: Guid(ac583a4dcc2bc3c4b82af3de784fc474) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Animations/Wedge/acc_WingON.anim using Guid(ac583a4dcc2bc3c4b82af3de784fc474) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '21297e99189bcf6c3b934d577bca3e15') in 0.013757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Animations/Expressions/exp_Vex.anim
+  artifactKey: Guid(e7b6946b0b110184cbb499ec4cf1a218) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Animations/Expressions/exp_Vex.anim using Guid(e7b6946b0b110184cbb499ec4cf1a218) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '987ddb3d94223b13017241bf71ad9a43') in 0.016016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Animations/Hand/Hand.Point.anim
+  artifactKey: Guid(91f42b89794aeab469a412297b01806f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Animations/Hand/Hand.Point.anim using Guid(91f42b89794aeab469a412297b01806f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '89be9585fe4be6a29530bcfc047e8df3') in 0.019310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Icons/expressions/exp_05.png
+  artifactKey: Guid(65265ca451f1a074cb20a97240958085) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Icons/expressions/exp_05.png using Guid(65265ca451f1a074cb20a97240958085) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3b35d806c9b982e1a765d2d6ebfe82a1') in 0.047947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Animations/Expressions/exp_Niya_V.anim
+  artifactKey: Guid(30505015c995ee34490ef571e5137746) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Animations/Expressions/exp_Niya_V.anim using Guid(30505015c995ee34490ef571e5137746) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '24f37e5f8f2bca9686e54bfc5d074d03') in 0.011451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Animations/Hand/Hand.Open.anim
+  artifactKey: Guid(8f5a8f3b34ecd694b81cab148ef4c6e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Animations/Hand/Hand.Open.anim using Guid(8f5a8f3b34ecd694b81cab148ef4c6e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eb142700a57fa07507ff852f1b66c8a1') in 0.012854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Animations/Expressions/exp_Puku.anim
+  artifactKey: Guid(d2aa10cdde794b24bb069ae3bed540a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Animations/Expressions/exp_Puku.anim using Guid(d2aa10cdde794b24bb069ae3bed540a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ae68bb7cea6e9e1e1aa46d2a02bab811') in 0.010681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Icons/expressions/exp_65.png
+  artifactKey: Guid(2f4e920af8b4e7a4d9c36a4236e9d779) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Icons/expressions/exp_65.png using Guid(2f4e920af8b4e7a4d9c36a4236e9d779) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7ec6b1401c8290ab57c0b5fdc7953887') in 0.044762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Icons/expressions/exp_32.png
+  artifactKey: Guid(2b489427587bee04e83d20cd676c4591) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Icons/expressions/exp_32.png using Guid(2b489427587bee04e83d20cd676c4591) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '78293af206e6fb20fc6ad94ede67cab0') in 0.037151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Icons/expressions/exp_19.png
+  artifactKey: Guid(18e746ed85e7e134daa86b41e074d4c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Icons/expressions/exp_19.png using Guid(18e746ed85e7e134daa86b41e074d4c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3610d1e4b69d5238d222db3023240d7b') in 0.022535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Icons/expressions/exp_25.png
+  artifactKey: Guid(587d3e88e399e5b49a5d1b8127e39d65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Icons/expressions/exp_25.png using Guid(587d3e88e399e5b49a5d1b8127e39d65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f8eeab370d2ef1445f7c0e874ccb296e') in 0.046126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Icons/expressions/exp_54.png
+  artifactKey: Guid(d7b083d61d281874e94d336a148af1d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Icons/expressions/exp_54.png using Guid(d7b083d61d281874e94d336a148af1d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ee874688bac7092ecbfeb6a8849a781b') in 0.036127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Materials/Textures/Tolass.Shoe.Color.png
+  artifactKey: Guid(2a273c245d2250c40b1c0df669db1a10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Materials/Textures/Tolass.Shoe.Color.png using Guid(2a273c245d2250c40b1c0df669db1a10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4207679c013cbc6e66571c31308613c0') in 0.027466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Icons/expressions/exp_66.png
+  artifactKey: Guid(dab751a3722f27b4cb66d4a0694ea8ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Icons/expressions/exp_66.png using Guid(dab751a3722f27b4cb66d4a0694ea8ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4df141e39a53ca998b457bdab12f6d59') in 0.038251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Animations/Expressions/exp_Niya_Shy.anim
+  artifactKey: Guid(d58b8314b195f2b41a5c529f4d9f431c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Animations/Expressions/exp_Niya_Shy.anim using Guid(d58b8314b195f2b41a5c529f4d9f431c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3a5782be0ed674f744e69691060bb525') in 0.011994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Icons/expressions/exp_67.png
+  artifactKey: Guid(9cc0783a7b895124289246e93fd81ba2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Icons/expressions/exp_67.png using Guid(9cc0783a7b895124289246e93fd81ba2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5d991952e21997f9a58eface26f50a86') in 0.037397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Animations/Expressions/exp_NiyaNiya.anim
+  artifactKey: Guid(f9beac42c89c9bc4ca0a70e1ff91de44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Animations/Expressions/exp_NiyaNiya.anim using Guid(f9beac42c89c9bc4ca0a70e1ff91de44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2368766fa275781a02ceb9645d276861') in 0.010875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Materials/Textures/Tolass.Hoodie.Shadow512.png
+  artifactKey: Guid(2c9df0f5193f13247857865dd1f83114) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Materials/Textures/Tolass.Hoodie.Shadow512.png using Guid(2c9df0f5193f13247857865dd1f83114) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ae772c193e8e8dbe72a7244f72b1ec4a') in 0.018129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Icons/expressions/exp_44.png
+  artifactKey: Guid(ee35a4820ebdaaa4eb05891c20999de0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Icons/expressions/exp_44.png using Guid(ee35a4820ebdaaa4eb05891c20999de0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e9ab1959761f686fbe08128919e42b5d') in 0.030366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Icons/expressions/exp_49.png
+  artifactKey: Guid(bd6639756e161e440a11e59307729a66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Icons/expressions/exp_49.png using Guid(bd6639756e161e440a11e59307729a66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '681571e734a3c187e395cbb9890b5615') in 0.022976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Materials/Textures/Tolass.Hoodie.Normal1024.png
+  artifactKey: Guid(5c77e6751b1b2854fbfbce988fea1aef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Materials/Textures/Tolass.Hoodie.Normal1024.png using Guid(5c77e6751b1b2854fbfbce988fea1aef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd258b998a2d32faba42a2533bb904359') in 0.023498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Materials/Textures/Tolass.Skin.Color.png
+  artifactKey: Guid(51e74111cf50d0a46a49402d9fa09ece) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Materials/Textures/Tolass.Skin.Color.png using Guid(51e74111cf50d0a46a49402d9fa09ece) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '20411233b5dd488f372635cba7bd2df9') in 0.029138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Icons/expressions/exp_07.png
+  artifactKey: Guid(60be48b67323c264784b0d4c0044c4e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Icons/expressions/exp_07.png using Guid(60be48b67323c264784b0d4c0044c4e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '25b6e4d33884d5b575f29997b7c0465e') in 0.049559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Icons/expressions/exp_24.png
+  artifactKey: Guid(c4b5c167d056fd2458a80c0081e752dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Icons/expressions/exp_24.png using Guid(c4b5c167d056fd2458a80c0081e752dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6f1cfef8da7d1421f5c9454c7180d948') in 0.042654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Icons/expressions/exp_42.png
+  artifactKey: Guid(f204a51e2504d904484832c17d981a91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Icons/expressions/exp_42.png using Guid(f204a51e2504d904484832c17d981a91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cbd0507e52837b7d59d3fb4023d6979b') in 0.024801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Icons/expressions/exp_26.png
+  artifactKey: Guid(b31816ad941c265439bf32d985b99467) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Icons/expressions/exp_26.png using Guid(b31816ad941c265439bf32d985b99467) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '734ac6f7be50a9543feec623e6d47f23') in 0.023547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Icons/expressions/exp_48.png
+  artifactKey: Guid(699d52017f3fdd9488404abafb2b8285) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Icons/expressions/exp_48.png using Guid(699d52017f3fdd9488404abafb2b8285) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8cad4c1be0107966b8ee1d4004c3e0d1') in 0.037422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/lilToon/Shader/Includes/lil_common_input_opt.hlsl
+  artifactKey: Guid(571051a232e4af44a98389bda858df27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/lilToon/Shader/Includes/lil_common_input_opt.hlsl using Guid(571051a232e4af44a98389bda858df27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fead73369203af8116c55660877bfe0d') in 0.022201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Animations/Wedge/Exp_TurnEye.anim
+  artifactKey: Guid(59ba55aeb986cb348bf2954517aefaa1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Animations/Wedge/Exp_TurnEye.anim using Guid(59ba55aeb986cb348bf2954517aefaa1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eea3acb92f478c1fe31d1c013d117a24') in 0.012001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Toon/Shader/Toon_ShadingGradeMap_Mobile_StencilOut.shader
+  artifactKey: Guid(cfc201757f2519c4bb6ef9265a046582) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Toon/Shader/Toon_ShadingGradeMap_Mobile_StencilOut.shader using Guid(cfc201757f2519c4bb6ef9265a046582) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4f19aca97af84da7bfef00a94315eba7') in 0.013269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Animations/Tolass_Sit.anim
+  artifactKey: Guid(248c6be1b01780340a76391f8e6ca8ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Animations/Tolass_Sit.anim using Guid(248c6be1b01780340a76391f8e6ca8ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eac8816fab14a9a0108b14d2f28c4d88') in 0.014081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/lilToon/CustomShaderResources/URP/DefaultUsePassFurOnly.lilblock
+  artifactKey: Guid(5a61d0630d28c694892a19e9947e6fc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/lilToon/CustomShaderResources/URP/DefaultUsePassFurOnly.lilblock using Guid(5a61d0630d28c694892a19e9947e6fc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3e9482e2f7cf52d4fa02c4f77aecc921') in 0.011206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/lilToon/CustomShaderResources/LWRP/DefaultUsePass.lilblock
+  artifactKey: Guid(b3b20e7176d1ee649856ccd9a7c74a2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/lilToon/CustomShaderResources/LWRP/DefaultUsePass.lilblock using Guid(b3b20e7176d1ee649856ccd9a7c74a2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f476d1824dab205ce9b38f41554425b3') in 0.009838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/lilToon/Shader/ltspass_transparent.shader
+  artifactKey: Guid(2683fad669f20ec49b8e9656954a33a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/lilToon/Shader/ltspass_transparent.shader using Guid(2683fad669f20ec49b8e9656954a33a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '94ab3ec38f605316aed20fce6a2783c1') in 0.038672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/lilToon/Shader/Includes/lil_pass_depthnormals.hlsl
+  artifactKey: Guid(5f0659d685a03dc4c8bb13bb7ce1666c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/lilToon/Shader/Includes/lil_pass_depthnormals.hlsl using Guid(5f0659d685a03dc4c8bb13bb7ce1666c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b8b82738ddee30a45a718b22a0870355') in 0.022116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/lilToon/Shader/ltsl_cutout_o.shader
+  artifactKey: Guid(8cf5267d397b04846856f6d3d9561da0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/lilToon/Shader/ltsl_cutout_o.shader using Guid(8cf5267d397b04846856f6d3d9561da0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '653958632411551e131b0bb2a1a9d0e2') in 0.012608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Animations/Expressions/exp_Shock_Square.anim
+  artifactKey: Guid(0648cdb6e38a1b54da9e1a547f521b90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Animations/Expressions/exp_Shock_Square.anim using Guid(0648cdb6e38a1b54da9e1a547f521b90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a90f377f5ec0c8ad711cb4f8d9824db3') in 0.012082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Toon/Shader/ToonColor_ShadingGradeMap_Transparent.shader
+  artifactKey: Guid(7737ca8c4e3939f4086a6e08f93c2ebd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Toon/Shader/ToonColor_ShadingGradeMap_Transparent.shader using Guid(7737ca8c4e3939f4086a6e08f93c2ebd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd9e88a0946220c10a7fede63c41cf50f') in 0.012718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/lilToon/CustomShaderResources/LWRP/DefaultUsePassOutlineOnly.lilblock
+  artifactKey: Guid(cbe3b405688ea014c92e5ea176b0090b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/lilToon/CustomShaderResources/LWRP/DefaultUsePassOutlineOnly.lilblock using Guid(cbe3b405688ea014c92e5ea176b0090b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3ef1f3aa2f031e8dccae743331e68d3b') in 0.009537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Icons/expressions/exp_22.png
+  artifactKey: Guid(75e94db3b27cdb64c9a266f184805f6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Icons/expressions/exp_22.png using Guid(75e94db3b27cdb64c9a266f184805f6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2997b408f49b9a2cf1fd59fec054ee85') in 0.042496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/NylonHeart/TolassAndWedge/Animations/AFK.anim
+  artifactKey: Guid(1465621e0dd755a42b6757984acff303) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NylonHeart/TolassAndWedge/Animations/AFK.anim using Guid(1465621e0dd755a42b6757984acff303) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7e5ed25ebf5a2049eea53e79a2d993c5') in 0.016643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/lilToon/Shader/lts_tess_onetrans.shader
+  artifactKey: Guid(90f83c35b0769a748abba5d0880f36d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/lilToon/Shader/lts_tess_onetrans.shader using Guid(90f83c35b0769a748abba5d0880f36d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8c13c08ed17056e2fe9f292924192109') in 0.027593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 由于线程退出或应用程序请求，已中止 I/O 操作。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
